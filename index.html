@@ -1,1921 +1,799 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Inkdyeclothes id | the real Spesialis Celup pakaian & dyeing</title>
-
-<meta name="description" content="Inkdyeclothes id — spesialis pencelupan pakaian & dyeing kain. Pengecekan kondisi bahan sebelum proses. Cibiru Bandung, Indonesia.">
-
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#111111">
-
-<!-- CANONICAL -->
-<link
-    rel="canonical"
-    href="https://inkdyeclothes.github.io/"
->
-
-<!-- OPEN GRAPH -->
-<meta
-    property="og:title"
-    content="Inkdyeclothes id | the real Spesialis Celup pakaian & dyeing"
->
-
-<meta
-    property="og:description"
-    content="Inkdyeclothes id — spesialis pencelupan pakaian & dyeing kain. Pengecekan kondisi bahan sebelum proses."
->
-
-<meta
-    property="og:url"
-    content="https://inkdyeclothes.github.io/"
->
-
-<meta
-    property="og:type"
-    content="website"
->
-
-<meta
-    property="og:site_name"
-    content="Inkdyeclothes id"
->
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inkdyeclothes id — Dyeing Specialist</title>
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif;
-    background: #f7f7f5;
-    color: #111111;
-    line-height: 1.6;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-button {
-    font: inherit;
-}
-
 :root {
-    --black: #111111;
-    --dark: #171717;
-    --gray-900: #242424;
-    --gray-700: #555555;
-    --gray-500: #777777;
-    --gray-300: #ddddda;
-    --gray-200: #e9e9e5;
-    --gray-100: #f1f1ed;
-    --white: #ffffff;
-    --cream: #f7f7f5;
-
-    --max-width: 1180px;
-
-    --radius: 16px;
-    --radius-small: 10px;
-
-    --shadow: 0 15px 50px rgba(0,0,0,0.06);
+  --site-primary:#20221e;
+  --site-secondary:#c9c6b8;
+  --site-background:#eeece5;
+  --site-on-background:#24251f;
+  --site-font-body:"Helvetica Neue",Arial,sans-serif;
+  --site-font-heading:Georgia,"Times New Roman",serif;
 }
-
-.container {
-    width: min(
-        calc(100% - 40px),
-        var(--max-width)
-    );
-    margin: 0 auto;
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  background:var(--site-background);
+  color:var(--site-on-background);
+  font-family:var(--site-font-body);
+  letter-spacing:-.01em;
 }
-
-.section {
-    padding: 110px 0;
+.site-root {
+  min-height:100vh;
+  background:var(--site-background);
+  color:var(--site-on-background);
+  overflow:hidden;
 }
-
-.eyebrow {
-    display: inline-block;
-    margin-bottom: 18px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--gray-700);
-}
-
-.section-title {
-    max-width: 760px;
-    font-size: clamp(36px, 5vw, 62px);
-    line-height: 1.02;
-    letter-spacing: -0.045em;
-    margin-bottom: 24px;
-}
-
-.section-description {
-    max-width: 650px;
-    font-size: 17px;
-    color: var(--gray-700);
-}
-
-.muted {
-    color: var(--gray-500);
-}
-
-
-
-/* BUTTON */
-
-.btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 50px;
-    padding: 0 22px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 700;
-    transition:
-        transform 0.2s ease,
-        background 0.2s ease,
-        color 0.2s ease;
-}
-
-.btn:hover {
-    transform: translateY(-2px);
-}
-
-.btn-dark {
-    background: var(--black);
-    color: var(--white);
-}
-
-.btn-dark:hover {
-    background: #292929;
-}
-
-.btn-light {
-    background: var(--white);
-    color: var(--black);
-}
-
-.btn-outline {
-    border: 1px solid var(--gray-300);
-    background: transparent;
-}
-
-.btn-outline:hover {
-    background: var(--white);
-}
-
-
-
-/* HEADER */
-
-.header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: rgba(247,247,245,0.92);
-    backdrop-filter: blur(14px);
-    border-bottom: 1px solid rgba(0,0,0,0.08);
-}
+a { color:inherit; text-decoration:none; }
+.wrap { width:min(1260px,calc(100% - 88px)); margin:0 auto; }
 
 .nav {
-    min-height: 76px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+  height:94px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid rgba(36,37,31,.22);
 }
-
-/* LOGO */
 .brand {
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-    text-decoration: none;
+  font-size:19px;
+  font-weight:900;
+  letter-spacing:-.07em;
+  text-transform:lowercase;
 }
-
-.brand img {
-    width: 58px;
-    height: 58px;
-    object-fit: contain;
-    display: block;
+.brand span {
+  display:block;
+  font-size:8px;
+  letter-spacing:.3em;
+  font-weight:600;
+  margin-top:4px;
+  text-transform:uppercase;
+  opacity:.62;
 }
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 28px;
-    font-size: 14px;
-    font-weight: 600;
+.navlinks {
+  display:flex;
+  gap:36px;
+  align-items:center;
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
 }
-
-.nav-links a {
-    color: var(--gray-700);
-    transition: color 0.2s ease;
+.navlinks a { opacity:.72; transition:opacity .2s; }
+.navlinks a:hover { opacity:1; }
+.nav-cta {
+  border:1px solid #777b65;
+  padding:14px 20px;
+  border-radius:2px;
+  font-size:10px;
+  letter-spacing:.15em;
+  text-transform:uppercase;
 }
-
-.nav-links a:hover {
-    color: var(--black);
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-
-
-/* HERO */
+.menu { display:none; background:none; border:0; font-size:22px; }
 
 .hero {
-    padding: 125px 0 105px;
-    border-bottom: 1px solid var(--gray-200);
+  min-height:690px;
+  background:#242620;
+  color:#f5f3ee;
+  position:relative;
+  display:flex;
+  align-items:center;
 }
-
+.hero:after {
+  content:"";
+  position:absolute;
+  right:-170px;
+  top:-250px;
+  width:720px;
+  height:720px;
+  border:1px solid rgba(224,221,208,.12);
+  border-radius:50%;
+  box-shadow:0 0 0 90px rgba(224,221,208,.025),0 0 0 180px rgba(224,221,208,.018);
+  pointer-events:none;
+}
 .hero-grid {
-    display: grid;
-    grid-template-columns:
-        minmax(0,1.15fr)
-        minmax(300px,0.85fr);
-    gap: 80px;
-    align-items: end;
+  display:grid;
+  grid-template-columns:1.02fr .98fr;
+  gap:7%;
+  align-items:center;
+  padding:90px 0 100px;
+  position:relative;
+  z-index:1;
 }
-
-.hero-title {
-    max-width: 850px;
-    font-size: clamp(48px,7vw,94px);
-    line-height: 0.96;
-    letter-spacing: -0.065em;
-    margin-bottom: 32px;
+.eyebrow {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:9px;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  color:#b6b7a7;
 }
-
-.hero-description {
-    max-width: 640px;
-    font-size: 19px;
-    color: var(--gray-700);
-    margin-bottom: 34px;
+.eyebrow:before {
+  content:"";
+  width:42px;
+  height:1px;
+  background:#9da087;
 }
-
-.hero-actions {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
+h1 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(58px,7.2vw,100px);
+  line-height:.91;
+  letter-spacing:-.075em;
+  font-weight:400;
+  margin:34px 0 30px;
 }
-
+h1 em { color:#b8b9a5; font-style:normal; }
+.hero-copy {
+  color:#c5c4bb;
+  font-size:14px;
+  line-height:1.95;
+  max-width:410px;
+}
+.actions { display:flex; gap:14px; flex-wrap:wrap; margin-top:40px; }
+.btn {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  padding:18px 23px;
+  border-radius:2px;
+  font-size:9px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  font-weight:700;
+  transition:transform .2s,background .2s;
+}
+.btn:hover { transform:translateY(-3px); }
+.btn-light { background:#e9e7dc; color:#242620; }
+.btn-outline { border:1px solid rgba(233,231,220,.42); color:#fff; }
 .hero-note {
-    margin-top: 20px;
-    font-size: 13px;
-    color: var(--gray-500);
+  margin-top:30px;
+  color:#9d9f91;
+  font-size:9px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.hero-art {
+  position:relative;
+  min-height:500px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.art-frame {
+  width:min(100%,540px);
+  aspect-ratio:.82;
+  background:#77796b;
+  border:8px solid rgba(238,236,229,.08);
+  position:relative;
+  overflow:hidden;
+  box-shadow:22px 24px 0 rgba(0,0,0,.13);
+}
+.art-frame:before {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(0deg,rgba(0,0,0,.42),transparent 48%);
+}
+.art-frame:after {
+  content:"GARMENT / STUDY 01";
+  position:absolute;
+  top:25px;
+  left:25px;
+  color:#f1eee7;
+  font-size:8px;
+  letter-spacing:.28em;
+}
+.hero-photo {
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  filter:saturate(.82) contrast(1.04);
+}
+.art-label {
+  position:absolute;
+  bottom:23px;
+  left:25px;
+  right:25px;
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  font-size:8px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:#e4e0d7;
+}
+.art-index {
+  position:absolute;
+  top:18px;
+  right:18px;
+  font-size:9px;
+  letter-spacing:.2em;
+  color:#c3beb4;
+  writing-mode:vertical-rl;
+}
+.side-note {
+  position:absolute;
+  right:-38px;
+  bottom:50px;
+  writing-mode:vertical-rl;
+  font-size:8px;
+  letter-spacing:.22em;
+  color:#b6b7a7;
 }
 
-.hero-side {
-    border-left: 1px solid var(--gray-300);
-    padding-left: 35px;
-    padding-bottom: 8px;
+.marquee {
+  background:#c9c6b8;
+  padding:19px 0;
+  overflow:hidden;
+  white-space:nowrap;
+  color:#171717;
+  font-size:9px;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+}
+.marquee span { display:inline-block; padding:0 38px; }
+
+.section { padding:125px 0; }
+.section-head {
+  display:flex;
+  justify-content:space-between;
+  gap:40px;
+  align-items:end;
+  margin-bottom:55px;
+}
+.kicker {
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.28em;
+  color:#777b65;
+}
+h2 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:400;
+  font-size:clamp(42px,5vw,66px);
+  line-height:.99;
+  letter-spacing:-.065em;
+  margin:15px 0 0;
+  max-width:620px;
+}
+.section-intro {
+  max-width:330px;
+  color:#77766e;
+  font-size:13px;
+  line-height:1.95;
 }
 
-.hero-side-number {
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    margin-bottom: 14px;
+.results-grid {
+  display:grid;
+  grid-template-columns:1.08fr .92fr;
+  gap:28px;
+  align-items:start;
 }
-
-.hero-side-text {
-    font-size: 16px;
-    color: var(--gray-700);
-}
-
-
-
-/* BEFORE AFTER */
-
-.result-section {
-    background: var(--white);
-}
-
-.result-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap: 40px;
-    margin-bottom: 50px;
-}
-
-.result-grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-}
-
 .result-card {
-    background: var(--cream);
-    border: 1px solid var(--gray-200);
-    border-radius: var(--radius);
-    overflow: hidden;
+  background:#d8d6cc;
+  position:relative;
+  overflow:hidden;
+  min-height:560px;
 }
+.result-card.tall { min-height:650px; }
+.result-visual { position:absolute; inset:0; display:block; }
 
-.result-image {
-    aspect-ratio: 4 / 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:
-        linear-gradient(
-            135deg,
-            #e7e7e3,
-            #cfcfca
-        );
-    color: var(--gray-500);
-    font-size: 13px;
-    text-align: center;
-    padding: 0;
-    overflow: hidden;
+/* Ukuran bingkai foto before-after */
+.result-half {
+  position:absolute;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:58%;
+  height:76%;
+  background:#eeece5;
+  padding:8px;
+  border:7px solid #eeece5;
+  box-shadow:0 24px 55px rgba(26,27,23,.2);
 }
+.result-half.before { left:4%; top:5%; z-index:2; }
+.result-half.after { right:4%; bottom:5%; z-index:1; }
 
-.result-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.result-half img {
+  position:absolute;
+  inset:0;
+  object-fit:contain;
+  object-position:center;
+  width:100%;
+  height:100%;
+  filter:none;
+  background:#eeece5;
+  transition:transform .7s ease;
 }
-
-.result-image.after {
-    background:
-        linear-gradient(
-            135deg,
-            #292929,
-            #111111
-        );
-    color: #eeeeee;
-}
-
-.result-content {
-    padding: 22px;
-}
+.result-card:hover .result-half img { transform:scale(1.02); }
+.result-half:after { display:none; }
+.result-half .wash { display:none; }
 
 .result-label {
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--gray-500);
-    margin-bottom: 5px;
+  position:absolute;
+  top:15px;
+  left:15px;
+  color:#fff;
+  font-size:8px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  z-index:3;
 }
-
-.result-name {
-    font-size: 18px;
-    font-weight: 700;
+.result-label.right { left:auto; right:15px; }
+.splitline { display:none; }
+.result-caption {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:28px;
+  background:linear-gradient(transparent,rgba(0,0,0,.7));
+  color:white;
+  z-index:4;
 }
-
-.result-disclaimer {
-    margin-top: 25px;
-    font-size: 13px;
-    color: var(--gray-500);
+.result-caption strong {
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:23px;
+  font-weight:400;
+  letter-spacing:-.03em;
 }
+.result-caption small {
+  display:block;
+  margin-top:5px;
+  font-size:8px;
+  letter-spacing:.2em;
+  opacity:.7;
+  text-transform:uppercase;
+}
+.note { font-size:9px; color:#79756e; margin-top:14px; letter-spacing:.04em; }
 
-
-
-/* PROBLEM */
-
+.problem { background:#e2e0d7; }
 .problem-grid {
-    display: grid;
-    grid-template-columns:
-        0.8fr
-        1.2fr;
-    gap: 80px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  border-top:1px solid #c4c2b7;
+}
+.problem-item {
+  padding:28px 24px 25px 0;
+  border-bottom:1px solid #c4c2b7;
+}
+.number { font-size:9px; letter-spacing:.24em; color:#858873; }
+.problem-item h3,.process-item h3 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:22px;
+  font-weight:400;
+  letter-spacing:-.04em;
+}
+.problem-item h3 { margin:38px 0 10px; }
+.problem-item p,.process-item p {
+  font-size:12px;
+  line-height:1.9;
+  color:#6f6b64;
+  max-width:220px;
 }
 
-.problem-list {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1px;
-    background: var(--gray-300);
-    border: 1px solid var(--gray-300);
+.process { background:#242620; color:#f5f3ee; }
+.process .kicker { color:#aeb09b; }
+.process .section-intro,.process-item p { color:#b8b8ae; }
+.process-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-top:1px solid rgba(238,236,229,.2);
 }
-
-.problem-card {
-    background: var(--cream);
-    padding: 32px;
-    min-height: 210px;
-}
-
-.problem-number {
-    font-size: 12px;
-    font-weight: 800;
-    color: var(--gray-500);
-    margin-bottom: 45px;
-}
-
-.problem-card h3 {
-    font-size: 20px;
-    letter-spacing: -0.02em;
-    margin-bottom: 8px;
-}
-
-.problem-card p {
-    font-size: 14px;
-    color: var(--gray-700);
-}
-
-
-
-/* CHECK */
-
-.check-section {
-    background: var(--dark);
-    color: var(--white);
-}
-
-.check-section .eyebrow {
-    color: #999999;
-}
-
-.check-section .section-description {
-    color: #bcbcbc;
-}
-
-.check-grid {
-    display: grid;
-    grid-template-columns:
-        1fr
-        1fr;
-    gap: 70px;
-    margin-top: 60px;
-}
-
-.check-item {
-    border-top: 1px solid #3a3a3a;
-    padding-top: 22px;
-}
-
-.check-number {
-    font-size: 12px;
-    color: #888888;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-
-.check-item h3 {
-    font-size: 22px;
-    margin-bottom: 8px;
-}
-
-.check-item p {
-    color: #aaa;
-    max-width: 500px;
-}
-
-
-
-/* PROCESS */
-
-.process-list {
-    margin-top: 60px;
-    border-top: 1px solid var(--gray-300);
-}
-
 .process-item {
-    display: grid;
-    grid-template-columns: 90px 1fr 1.4fr;
-    gap: 30px;
-    padding: 28px 0;
-    border-bottom: 1px solid var(--gray-300);
-    align-items: center;
+  padding:28px 28px 38px 0;
+  border-bottom:1px solid rgba(238,236,229,.2);
+  min-height:170px;
+}
+.process-item .number { color:#aeb09b; }
+.process-item h3 { color:#eeece5; margin:28px 0 8px; }
+
+.material-grid {
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:10%;
+  align-items:start;
+}
+.material-copy {
+  font-size:13px;
+  line-height:2;
+  color:#6f6b64;
+  max-width:390px;
+}
+.material-list { border-top:1px solid #c4c2b7; }
+.material-row {
+  display:flex;
+  justify-content:space-between;
+  gap:25px;
+  padding:24px 0;
+  border-bottom:1px solid #c4c2b7;
+}
+.material-row strong {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:17px;
+  font-weight:400;
+}
+.material-row span {
+  max-width:260px;
+  text-align:right;
+  font-size:11px;
+  line-height:1.85;
+  color:#77766e;
 }
 
-.process-number {
-    font-size: 13px;
-    font-weight: 800;
-    color: var(--gray-500);
+.quote { background:#c9c6b8; padding:95px 0; }
+.quote-inner {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:30px;
+}
+.quote blockquote {
+  margin:0;
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:400;
+  font-size:clamp(36px,5vw,62px);
+  line-height:1.05;
+  letter-spacing:-.06em;
+  max-width:730px;
+}
+.quote cite {
+  font-size:9px;
+  font-style:normal;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:#6f6b64;
 }
 
-.process-item h3 {
-    font-size: 21px;
+.faq-grid {
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:10%;
 }
-
-.process-item p {
-    font-size: 15px;
-    color: var(--gray-700);
-}
-
-
-
-/* MATERIAL */
-
-.material-section {
-    background: var(--white);
-}
-
-.material-box {
-    margin-top: 60px;
-    padding: 50px;
-    border: 1px solid var(--gray-300);
-    border-radius: var(--radius);
-    background: var(--cream);
-}
-
-.material-title {
-    font-size: clamp(28px,4vw,48px);
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-    max-width: 700px;
-    margin-bottom: 25px;
-}
-
-.material-points {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    margin-top: 45px;
-}
-
-.material-point {
-    border-top: 1px solid var(--gray-300);
-    padding-top: 18px;
-}
-
-.material-point strong {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.material-point span {
-    font-size: 14px;
-    color: var(--gray-700);
-}
-
-
-
-/* TESTIMONIAL */
-
-.testimonial-grid {
-    display: grid;
-    grid-template-columns:
-        0.75fr
-        1.25fr;
-    gap: 80px;
-    align-items: start;
-}
-
-.testimonial-card {
-    padding: 45px;
-    background: var(--white);
-    border: 1px solid var(--gray-200);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-}
-
-.quote {
-    font-size: clamp(24px,3vw,38px);
-    line-height: 1.15;
-    letter-spacing: -0.035em;
-    margin-bottom: 35px;
-}
-
-.quote-source {
-    font-size: 13px;
-    color: var(--gray-500);
-}
-
-
-
-/* HOW TO START */
-
-.steps {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 1px;
-    background: var(--gray-300);
-    border: 1px solid var(--gray-300);
-    margin-top: 55px;
-}
-
-.step {
-    background: var(--cream);
-    padding: 28px;
-    min-height: 190px;
-}
-
-.step-number {
-    font-size: 12px;
-    font-weight: 800;
-    color: var(--gray-500);
-    margin-bottom: 40px;
-}
-
-.step h3 {
-    font-size: 17px;
-    margin-bottom: 8px;
-}
-
-.step p {
-    font-size: 13px;
-    color: var(--gray-700);
-}
-
-
-
-/* FAQ */
-
-.faq {
-    margin-top: 50px;
-    border-top: 1px solid var(--gray-300);
-}
-
-details {
-    border-bottom: 1px solid var(--gray-300);
-}
-
+.faq-list { border-top:1px solid #c4c2b7; }
+details { border-bottom:1px solid #c4c2b7; padding:23px 0; }
 summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 25px 0;
-    font-size: 18px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  cursor:pointer;
+  list-style:none;
+  font-size:13px;
+  font-weight:600;
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+}
+summary::-webkit-details-marker { display:none; }
+summary:after { content:"+"; font-size:20px; font-weight:300; color:#777b65; }
+details[open] summary:after { content:"−"; }
+details p {
+  color:#6f6b64;
+  font-size:12px;
+  line-height:1.9;
+  max-width:560px;
 }
 
-summary::-webkit-details-marker {
-    display: none;
+.final-cta { background:#242620; color:#f5f3ee; padding:115px 0; }
+.final-cta .kicker { color:#aeb09b; }
+.final-cta h2 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:400;
+  font-size:clamp(50px,7vw,88px);
+  line-height:.95;
+  max-width:760px;
 }
-
-summary::after {
-    content: "+";
-    font-size: 24px;
-    font-weight: 400;
-    color: var(--gray-500);
-}
-
-details[open] summary::after {
-    content: "−";
-}
-
-.faq-answer {
-    max-width: 720px;
-    padding-bottom: 25px;
-    color: var(--gray-700);
-    font-size: 15px;
-}
-
-
-
-/* CTA */
-
-.final-cta {
-    padding: 120px 0;
-    background: var(--black);
-    color: var(--white);
-    text-align: center;
-}
-
-.final-cta .section-title {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 850px;
-}
-
 .final-cta p {
-    max-width: 620px;
-    margin: 0 auto 32px;
-    color: #bcbcbc;
-    font-size: 17px;
+  color:#aaa69e;
+  max-width:440px;
+  line-height:1.95;
+  font-size:13px;
 }
-
-
-
-/* FOOTER */
-
-footer {
-    background: var(--black);
-    color: white;
-    border-top: 1px solid #292929;
+.footer {
+  background:#1d1f1a;
+  color:#aaa69e;
+  padding:25px 0 35px;
+  border-top:1px solid rgba(238,236,229,.16);
+  font-size:10px;
 }
-
 .footer-inner {
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
 }
+.footer .brand { color:#f5f3ee; }
 
-.footer-brand {
-    font-weight: 800;
+@media (max-width:760px) {
+  .wrap { width:min(100% - 38px,560px); }
+  .nav { height:76px; }
+  .navlinks { display:none; gap:16px; }
+  .menu { display:block; color:inherit; }
+  .hero { min-height:auto; }
+  .hero-grid {
+    grid-template-columns:1fr;
+    gap:38px;
+    padding:70px 0 65px;
+  }
+  h1 { font-size:clamp(54px,15vw,78px); margin:27px 0 24px; }
+  .hero-art { min-height:390px; }
+  .art-frame { width:82%; aspect-ratio:.9; }
+  .side-note { right:0; }
+  .section { padding:82px 0; }
+  .section-head { display:block; margin-bottom:34px; }
+  .section-intro { margin-top:20px; }
+  .results-grid { grid-template-columns:1fr; gap:20px; }
+  .result-card,.result-card.tall { min-height:460px; }
+  .result-half { width:59%; height:74%; padding:6px; }
+  .problem-grid { grid-template-columns:1fr 1fr; }
+  .process-grid { grid-template-columns:1fr 1fr; }
+  .material-grid,.faq-grid { grid-template-columns:1fr; gap:32px; }
+  .quote { padding:70px 0; }
+  .final-cta { padding:78px 0; }
 }
-
-.footer-info {
-    display: flex;
-    gap: 25px;
-    color: #999;
-    font-size: 13px;
-}
-
-
-
-/* RESPONSIVE TABLET */
-
-@media (max-width:900px) {
-
-    .nav-links {
-        display: none;
-    }
-
-    .hero-grid,
-    .problem-grid,
-    .testimonial-grid {
-        grid-template-columns: 1fr;
-        gap: 45px;
-    }
-
-    .hero-side {
-        border-left: none;
-        border-top: 1px solid var(--gray-300);
-        padding-left: 0;
-        padding-top: 25px;
-    }
-
-    .material-points {
-        grid-template-columns: 1fr;
-    }
-
-    .steps {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .process-item {
-        grid-template-columns:
-            70px
-            1fr;
-    }
-
-    .process-item p {
-        grid-column: 2;
-    }
-}
-
-
-
-/* RESPONSIVE MOBILE */
-
-@media (max-width:600px) {
-
-    .brand img {
-        width: 52px;
-        height: 52px;
-    }
-
-    .container {
-        width: min(
-            calc(100% - 28px),
-            var(--max-width)
-        );
-    }
-
-    .section {
-        padding: 75px 0;
-    }
-
-    .hero {
-        padding: 75px 0 70px;
-    }
-
-    .hero-title {
-        font-size: clamp(
-            46px,
-            14vw,
-            70px
-        );
-        letter-spacing: -0.065em;
-    }
-
-    .hero-description {
-        font-size: 17px;
-    }
-
-    .hero-actions {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-    .result-heading {
-        display: block;
-    }
-
-    .result-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .problem-list {
-        grid-template-columns: 1fr;
-    }
-
-    .problem-card {
-        min-height: auto;
-    }
-
-    .check-grid {
-        grid-template-columns: 1fr;
-        gap: 35px;
-    }
-
-    .process-item {
-        grid-template-columns:
-            45px
-            1fr;
-        gap: 18px;
-    }
-
-    .process-item p {
-        grid-column: 2;
-    }
-
-    .material-box {
-        padding: 28px;
-    }
-
-    .steps {
-        grid-template-columns: 1fr;
-    }
-
-    .testimonial-card {
-        padding: 30px;
-    }
-
-    .footer-inner {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .footer-info {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .final-cta {
-        padding: 85px 0;
-    }
+@media (max-width:420px) {
+  .wrap { width:calc(100% - 30px); }
+  .nav-cta { padding:11px 12px; font-size:8px; }
+  .brand { font-size:17px; }
+  .hero-art { min-height:340px; }
+  .result-card,.result-card.tall { min-height:390px; }
+  .result-half { width:61%; height:72%; padding:4px; border-width:5px; }
+  .problem-item h3,.process-item h3 { font-size:19px; }
+  .material-row { display:block; }
+  .material-row span {
+    display:block;
+    max-width:none;
+    text-align:left;
+    margin-top:8px;
+  }
 }
 </style>
 </head>
-
 <body>
+<div class="site-root">
 
-<!-- HEADER -->
-
-<header class="header">
-
-    <div class="container nav">
-
-        <a href="#" class="brand" aria-label="Inkdyeclothes id">
-            <img
-                src="imageslogo-inkdye.png.png"
-                alt="Inkdyeclothes id"
-            >
-        </a>
-
-        <div class="nav-menu">
-
-            <nav class="nav-links">
-
-                <a href="#hasil">
-                    Hasil
-                </a>
-
-                <a href="#proses">
-                    Proses
-                </a>
-
-                <a href="#faq">
-                    FAQ
-                </a>
-
-            </nav>
-
-            <a
-                href="https://wa.me/6282123087202"
-                class="btn btn-dark"
-            >
-                Chat WhatsApp
-            </a>
-
-        </div>
-
-    </div>
-
+<header class="wrap nav">
+  <a class="brand" href="#top">inkdyeclothes id<span>Dyeing specialist</span></a>
+  <nav class="navlinks">
+    <a href="#hasil">Hasil</a>
+    <a href="#proses">Proses</a>
+    <a href="#material">Standar</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <a class="nav-cta" href="https://wa.me/6282123087202">Konsultasi ↗</a>
+  <button class="menu" aria-label="Menu" onclick="document.querySelector('.navlinks').style.display='flex'">☰</button>
 </header>
 
-
-
-<!-- HERO -->
-
-<main>
-
+<main id="top">
 <section class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">inkdyeclothes id · Dyeing specialist</div>
+   <h1>Spesialis dyeing<br>untuk pakaian<br><em>pudar.</em></h1>
+   <p class="hero-copy">Spesialis celup pakaian pudar pabrikan. Membantu mengembalikan warna pakaian melalui proses dyeing dengan bahan pewarna grade pabrikan, disesuaikan dengan material dan kondisi setiap pakaian.</p>
+   <div class="actions">
+    <a class="btn btn-light" href="https://wa.me/6282123087202">Kirim foto pakaian <span>↗</span></a>
+    <a class="btn btn-outline" href="#hasil">Lihat hasil</a>
+   </div>
+   <div class="hero-note">Clothing dyeing specialist · Bandung, Indonesia</div>
+  </div>
 
-    <div class="container hero-grid">
-
-        <div>
-
-            <span class="eyebrow">
-                Dyeing & Restorasi Warna
-            </span>
-
-            <h1 class="hero-title">
-                Pakaian pudar,
-                bukan berarti
-                harus diganti.
-            </h1>
-
-            <p class="hero-description">
-                Mengembalikan warna pakaian yang telah memudar
-                melalui proses dyeing yang disesuaikan dengan
-                kondisi bahan.
-            </p>
-
-            <div class="hero-actions">
-
-                <a
-                    href="https://wa.me/6282123087202"
-                    class="btn btn-dark"
-                >
-                    Konsultasikan Pakaian
-                </a>
-
-                <a
-                    href="https://wa.me/c/6282123087202"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn"
-                >
-                    Lihat Hasil
-                </a>
-
-            </div>
-
-            <p class="hero-note">
-                Kirim foto pakaian terlebih dahulu.
-                Kami cek kelayakannya sebelum proses.
-            </p>
-
-        </div>
-
-
-
-        <div class="hero-side">
-
-            <div class="hero-side-number">
-                Bandung · Indonesia
-            </div>
-
-            <p class="hero-side-text">
-                the real spesialis pencelupan pakaian pudar & dyeing Fabrics
-            </p>
-
-        </div>
-
-    </div>
-
+  <div class="hero-art">
+   <div class="art-frame">
+    <img class="hero-photo" src="images/hero.jpg" alt="Hasil dyeing pakaian Inkdyeclothes id">
+    <div class="art-index">Dyeing specialist / 01</div>
+    <div class="art-label"><span>Clothing dyeing</span><span>Inkdyeclothes id</span></div>
+   </div>
+   <div class="side-note">SPECIALIST DYEING SERVICE</div>
+  </div>
+ </div>
 </section>
 
+<div class="marquee">
+ <span>Clothing dyeing specialist</span>✳
+ <span>Color restoration</span>✳
+ <span>Inkdyeclothes id</span>✳
+ <span>Clothing dyeing specialist</span>✳
+ <span>Color restoration</span>
+</div>
 
+<section class="section wrap" id="hasil">
+ <div class="section-head">
+  <div>
+   <div class="kicker">01 / Selected work</div>
+   <h2>Dokumentasi hasil<br>proses dyeing.</h2>
+  </div>
+  <p class="section-intro">Setiap pakaian memiliki kondisi dan karakter warna yang berbeda. Lihat dokumentasi before-after dari proses pewarnaan pakaian.</p>
+ </div>
 
-<!-- BEFORE AFTER -->
-
-<section class="section result-section" id="hasil">
-
-    <div class="container">
-
-        <div class="result-heading">
-
-            <div>
-
-                <span class="eyebrow">
-                    Hasil Pengerjaan
-                </span>
-
-                <h2 class="section-title">
-                    warna yang tepat bukan hanya mengubah pakaian.
-                    tapi juga cara anda melangkah.
-                </h2>
-
-            </div>
-
-            <p class="section-description">
-                Contoh hasil nayata dari pakaian costumer kami yang sudah
-                membuktikan bahwa pakaian lama tidak harus di ganti dan
-                justru menambah nilai kepercayaan tersendiri.
-            </p>
-
-        </div>
-
-
-
-        <div class="result-grid">
-
-            <article class="result-card">
-
-                <div class="result-image">
-
-                    <img
-                        src="before-after-hoodie.jpeg"
-                        alt="Kondisi pakaian sebelum proses dyeing"
-                    >
-
-                </div>
-
-                <div class="result-content">
-
-                    <div class="result-label">
-                        Before
-                    </div>
-
-                    <div class="result-name">
-                        Kondisi warna sebelum proses
-                    </div>
-
-                </div>
-
-            </article>
-
-
-
-            <article class="result-card">
-
-                <div class="result-image after">
-
-                    <img
-                        src="before-after-denim-.jpg.jpeg"
-                        alt="Hasil pakaian setelah proses dyeing"
-                    >
-
-                </div>
-
-                <div class="result-content">
-
-                    <div class="result-label">
-                        After
-                    </div>
-
-                    <div class="result-name">
-                        Hasil setelah proses
-                    </div>
-
-                </div>
-
-            </article>
-
-        </div>
-
+ <div class="results-grid">
+  <article class="result-card tall">
+   <div class="result-visual">
+    <div class="result-half before">
+     <img src="images/before-1.jpg" alt="Pakaian sebelum dyeing">
+     <span class="result-label">Before</span>
+     <div class="wash"></div>
     </div>
+    <div class="result-half after">
+     <img src="images/after-1.jpg" alt="Pakaian sesudah dyeing">
+     <span class="result-label right">After</span>
+    </div>
+   </div>
+   <div class="splitline"></div>
+   <div class="result-caption">
+    <strong>Black garment</strong>
+    <small>Before / after · Color restoration</small>
+   </div>
+  </article>
 
+  <article class="result-card">
+   <div class="result-visual">
+    <div class="result-half denim-before">
+     <img src="images/before-2.jpg" alt="Denim sebelum dyeing">
+     <span class="result-label">Before</span>
+     <div class="wash"></div>
+    </div>
+    <div class="result-half denim-after">
+     <img src="images/after-2.jpg" alt="Denim sesudah dyeing">
+     <span class="result-label right">After</span>
+    </div>
+   </div>
+   <div class="splitline"></div>
+   <div class="result-caption">
+    <strong>Denim restoration</strong>
+    <small>Before / after · Denim dyeing</small>
+   </div>
+  </article>
+ </div>
+ <p class="note">Selected dyeing works · Foto dokumentasi asli ditampilkan sesuai urutan before dan after.</p>
 </section>
 
+<section class="section problem">
+ <div class="wrap">
+  <div class="section-head">
+   <div>
+    <div class="kicker">02 / The problem</div>
+    <h2>Masih nyaman dipakai.<br>Hanya warnanya berubah.</h2>
+   </div>
+   <p class="section-intro">Pakaian yang mulai kusam belum tentu harus diganti. Kondisi bahan dan warna perlu dilihat lebih dulu sebelum menentukan proses.</p>
+  </div>
 
-
-<!-- PROBLEM -->
-
-<section class="section">
-
-    <div class="container problem-grid">
-
-        <div>
-
-            <span class="eyebrow">
-                Masalah Pakaian
-            </span>
-
-            <h2 class="section-title">
-                pakaian masih nyaman di pakai
-                namun warnanya kusam?
-            </h2>
-
-            <p class="section-description">
-                Beberapa pakaian sebenarnya masih sangat layak
-                dipakai. secara data masalah hanya ada di warna.
-            </p>
-
-        </div>
-
-
-
-        <div class="problem-list">
-
-            <article class="problem-card">
-
-                <div class="problem-number">
-                    01
-                </div>
-
-                <h3>
-                    Hitam mulai pudar
-                </h3>
-
-                <p>
-                    Warna hitam yang dahulu pekat mulai
-                    terlihat kusam setelah penggunaan
-                    dan pencucian berulang.
-                </p>
-
-            </article>
-
-
-
-            <article class="problem-card">
-
-                <div class="problem-number">
-                    02
-                </div>
-
-                <h3>
-                    Warna terlihat kusam
-                </h3>
-
-                <p>
-                    Bentuk pakaian masih bagus,
-                    tetapi warna tidak lagi terlihat
-                    seperti sebelumnya.
-                </p>
-
-            </article>
-
-
-
-            <article class="problem-card">
-
-                <div class="problem-number">
-                    03
-                </div>
-
-                <h3>
-                    Pakaian favorit
-                </h3>
-
-                <p>
-                    Masih nyaman dan ingin dipakai,
-                    tetapi mulai jarang digunakan karena
-                    warnanya sudah berubah.
-                </p>
-
-            </article>
-
-
-
-            <article class="problem-card">
-
-                <div class="problem-number">
-                    04
-                </div>
-
-                <h3>
-                    Pakaian bernilai
-                </h3>
-
-                <p>
-                    Pakaian branded atau memiliki nilai
-                    personal yang masih ingin dipertahankan.
-                </p>
-
-            </article>
-
-        </div>
-
-    </div>
-
+  <div class="problem-grid">
+   <div class="problem-item">
+    <div class="number">01</div>
+    <h3>Hitam mulai pudar</h3>
+    <p>Warna hitam kehilangan pekatnya setelah penggunaan dan pencucian berulang.</p>
+   </div>
+   <div class="problem-item">
+    <div class="number">02</div>
+    <h3>Warna kusam</h3>
+    <p>Bentuk pakaian masih baik, tetapi tampilannya tidak lagi seperti semula.</p>
+   </div>
+   <div class="problem-item">
+    <div class="number">03</div>
+    <h3>Pakaian favorit</h3>
+    <p>Masih nyaman digunakan dan ingin dipertahankan lebih lama.</p>
+   </div>
+   <div class="problem-item">
+    <div class="number">04</div>
+    <h3>Pakaian bernilai</h3>
+    <p>Termasuk pakaian branded atau memiliki nilai personal.</p>
+   </div>
+  </div>
+ </div>
 </section>
 
+<section class="section process" id="proses">
+ <div class="wrap">
+  <div class="section-head">
+   <div>
+    <div class="kicker">03 / Our process</div>
+    <h2>Bukan sekadar<br>mengganti warna.</h2>
+   </div>
+   <p class="section-intro">Setiap pakaian melewati tahapan yang disesuaikan dengan material, kondisi, dan target warna.</p>
+  </div>
 
-
-<!-- CHECK -->
-
-<section class="section check-section">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            Pengecekan
-        </span>
-
-        <h2 class="section-title">
-            Kami cek dulu
-            sebelum mengerjakan.
-        </h2>
-
-        <p class="section-description">
-            Tidak semua pakaian memiliki karakter bahan
-            dan kondisi yang sama. Karena itu, kelayakan
-            pakaian diperhatikan sebelum proses.
-        </p>
-
-
-
-        <div class="check-grid">
-
-            <div class="check-item">
-
-                <div class="check-number">
-                    01
-                </div>
-
-                <h3>
-                    Kondisi bahan
-                </h3>
-
-                <p>
-                    Melihat apakah material dan kondisi
-                    pakaian masih layak untuk diproses.
-                </p>
-
-            </div>
-
-
-
-            <div class="check-item">
-
-                <div class="check-number">
-                    02
-                </div>
-
-                <h3>
-                    Warna awal
-                </h3>
-
-                <p>
-                    Warna awal dan tingkat pemudaran
-                    menjadi pertimbangan dalam menentukan
-                    kemungkinan hasil.
-                </p>
-
-            </div>
-
-
-
-            <div class="check-item">
-
-                <div class="check-number">
-                    03
-                </div>
-
-                <h3>
-                    Risiko pengerjaan
-                </h3>
-
-                <p>
-                    Kondisi pakaian diperhatikan untuk
-                    mengurangi risiko yang tidak diinginkan
-                    selama proses.
-                </p>
-
-            </div>
-
-
-
-            <div class="check-item">
-
-                <div class="check-number">
-                    04
-                </div>
-
-                <h3>
-                    Hasil realistis
-                </h3>
-
-                <p>
-                    Kami tidak menjanjikan hasil yang tidak
-                    sesuai dengan kondisi pakaian.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
+  <div class="process-grid">
+   <div class="process-item"><div class="number">01</div><h3>Pengecekan</h3><p>Material, kondisi pakaian, dan warna awal diperiksa.</p></div>
+   <div class="process-item"><div class="number">02</div><h3>Persiapan</h3><p>Pakaian dipersiapkan sesuai kebutuhan proses dyeing.</p></div>
+   <div class="process-item"><div class="number">03</div><h3>Dyeing</h3><p>Pewarnaan dilakukan berdasarkan kondisi dan target warna.</p></div>
+   <div class="process-item"><div class="number">04</div><h3>Fixation</h3><p>Tahapan penguncian warna menjadi bagian dari proses.</p></div>
+   <div class="process-item"><div class="number">05</div><h3>Finishing</h3><p>Pencucian dan finishing sebelum pemeriksaan akhir.</p></div>
+   <div class="process-item"><div class="number">06</div><h3>Quality check</h3><p>Pakaian diperiksa kembali sebelum dikemas dan dikirim.</p></div>
+  </div>
+ </div>
 </section>
 
+<section class="section wrap" id="material">
+ <div class="material-grid">
+  <div>
+   <div class="kicker">04 / Dyeing standard</div>
+   <h2>Standar proses untuk setiap pakaian.</h2>
+   <p class="material-copy">Inkdyeclothes id berfokus pada jasa dyeing pakaian pudar. Pemilihan bahan pewarna, proses fixation, dan penanganan pakaian disesuaikan dengan material serta kondisi pakaian.</p>
+  </div>
 
-
-<!-- PROCESS -->
-
-<section class="section" id="proses">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            Standar Proses
-        </span>
-
-        <h2 class="section-title">
-            Bukan sekadar
-            mengganti warna.
-        </h2>
-
-        <p class="section-description">
-            Setiap pakaian melalui tahapan yang disesuaikan
-            dengan kondisi dan materialnya.
-        </p>
-
-
-
-        <div class="process-list">
-
-            <div class="process-item">
-
-                <div class="process-number">
-                    01
-                </div>
-
-                <h3>
-                    Pengecekan
-                </h3>
-
-                <p>
-                    Kondisi pakaian dan material diperiksa
-                    sebelum proses.
-                </p>
-
-            </div>
-
-
-
-            <div class="process-item">
-
-                <div class="process-number">
-                    02
-                </div>
-
-                <h3>
-                    Persiapan
-                </h3>
-
-                <p>
-                    Pakaian dipersiapkan sesuai kebutuhan
-                    proses dyeing.
-                </p>
-
-            </div>
-
-
-
-            <div class="process-item">
-
-                <div class="process-number">
-                    03
-                </div>
-
-                <h3>
-                    Dyeing
-                </h3>
-
-                <p>
-                    Proses pewarnaan dilakukan berdasarkan
-                    kondisi dan target warna.
-                </p>
-
-            </div>
-
-
-
-            <div class="process-item">
-
-                <div class="process-number">
-                    04
-                </div>
-
-                <h3>
-                    Fixation
-                </h3>
-
-                <p>
-                    Tahapan penguncian warna menjadi bagian
-                    dari proses pengerjaan.
-                </p>
-
-            </div>
-
-
-
-            <div class="process-item">
-
-                <div class="process-number">
-                    05
-                </div>
-
-                <h3>
-                    Finishing
-                </h3>
-
-                <p>
-                    Pencucian dan finishing dilakukan sebelum
-                    pakaian masuk tahap pemeriksaan akhir.
-                </p>
-
-            </div>
-
-
-
-            <div class="process-item">
-
-                <div class="process-number">
-                    06
-                </div>
-
-                <h3>
-                    Quality Check
-                </h3>
-
-                <p>
-                    Pakaian diperiksa kembali sebelum
-                    dikemas dan dikirim.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
+  <div class="material-list">
+   <div class="material-row">
+    <strong>Reactive Dye Grade Pabrikan</strong>
+    <span>Pemilihan bahan pewarna menjadi bagian dari proses.</span>
+   </div>
+   <div class="material-row">
+    <strong>Fixation process</strong>
+    <span>Penguncian warna diperhatikan untuk membantu menjaga hasil.</span>
+   </div>
+   <div class="material-row">
+    <strong>Quality control</strong>
+    <span>Kondisi akhir diperiksa sebelum pakaian dikirim.</span>
+   </div>
+  </div>
+ </div>
 </section>
 
-
-
-<!-- MATERIAL -->
-
-<section class="section material-section">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            Material & Durabilitas
-        </span>
-
-        <h2 class="section-title">
-            Hasil yang baik
-            dimulai dari bahan
-            yang tepat.
-        </h2>
-
-
-
-        <div class="material-box">
-
-            <h3 class="material-title">
-                Pemilihan bahan, proses fixation,
-                dan penanganan pakaian menjadi bagian
-                penting dari hasil akhir.
-            </h3>
-
-            <p class="section-description">
-                Inkdyeclothes menggunakan pendekatan proses
-                yang memperhatikan material dan kondisi pakaian,
-                bukan sekadar mengejar warna yang terlihat
-                lebih gelap.
-            </p>
-
-
-
-            <div class="material-points">
-
-                <div class="material-point">
-
-                    <strong>
-                        Reactive Dye Grade Pabrikan
-                    </strong>
-
-                    <span>
-                        Pemilihan bahan pewarna menjadi
-                        bagian dari proses.
-                    </span>
-
-                </div>
-
-
-
-                <div class="material-point">
-
-                    <strong>
-                        Fixation
-                    </strong>
-
-                    <span>
-                        Proses penguncian warna diperhatikan
-                        untuk membantu menjaga hasil.
-                    </span>
-
-                </div>
-
-
-
-                <div class="material-point">
-
-                    <strong>
-                        Quality Control
-                    </strong>
-
-                    <span>
-                        Kondisi akhir diperiksa sebelum
-                        pakaian dikirim.
-                    </span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
+<section class="quote">
+ <div class="wrap quote-inner">
+  <blockquote>“Clothing dyeing specialist.”</blockquote>
+  <cite>Inkdyeclothes id / Bandung, Indonesia</cite>
+ </div>
 </section>
 
+<section class="section wrap" id="faq">
+ <div class="faq-grid">
+  <div>
+   <div class="kicker">05 / FAQ</div>
+   <h2>Hal yang perlu kamu ketahui.</h2>
+   <p class="section-intro">Punya pertanyaan tentang kondisi pakaian atau proses dyeing? Mulai dengan pengecekan melalui WhatsApp.</p>
+  </div>
 
-
-<!-- TESTIMONIAL -->
-
-<section class="section">
-
-    <div class="container testimonial-grid">
-
-        <div>
-
-            <span class="eyebrow">
-                Pengalaman Customer
-            </span>
-
-            <h2 class="section-title">
-                Kepercayaan
-                dibangun dari
-                pengalaman nyata.
-            </h2>
-
-            <p class="section-description">
-                Feedback customer menjadi bagian dari
-                bagaimana kami melihat kualitas pengerjaan.
-            </p>
-
-        </div>
-
-
-
-        <div class="testimonial-card">
-
-            <div class="quote">
-                “Rasa aman.”
-            </div>
-
-            <div class="quote-source">
-                Feedback customer
-            </div>
-
-        </div>
-
-    </div>
-
+  <div class="faq-list">
+   <details>
+    <summary>Apakah semua pakaian bisa dicelup?</summary>
+    <p>Tidak semua. Kelayakan pakaian dilihat berdasarkan material, kondisi, dan warna awal. Kirim foto terlebih dahulu untuk pengecekan.</p>
+   </details>
+   <details>
+    <summary>Bisa celup pakaian hitam yang sudah pudar?</summary>
+    <p>Bisa diperiksa terlebih dahulu. Kirim foto pakaian dan jelaskan kondisi warnanya.</p>
+   </details>
+   <details>
+    <summary>Berapa lama proses pengerjaan?</summary>
+    <p>Normalnya sekitar 1–2 hari setelah pakaian diterima, tergantung kondisi dan antrean pengerjaan.</p>
+   </details>
+   <details>
+    <summary>Bagaimana cara mengirim pakaian?</summary>
+    <p>Setelah pengecekan dan estimasi disepakati, pakaian dapat dikirim melalui ekspedisi atau Gojek.</p>
+   </details>
+   <details>
+    <summary>Berapa harga pengerjaannya?</summary>
+    <p>Harga bergantung pada jenis pakaian, kondisi, dan kebutuhan proses. Estimasi diberikan setelah pengecekan.</p>
+   </details>
+  </div>
+ </div>
 </section>
-
-
-
-<!-- HOW TO START -->
-
-<section class="section">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            Cara Memulai
-        </span>
-
-        <h2 class="section-title">
-            Mulai dari foto.
-        </h2>
-
-        <p class="section-description">
-            Kirim informasi pakaian terlebih dahulu
-            agar dapat kami cek sebelum proses.
-        </p>
-
-
-
-        <div class="steps">
-
-            <div class="step">
-
-                <div class="step-number">
-                    01
-                </div>
-
-                <h3>
-                    Foto pakaian
-                </h3>
-
-                <p>
-                    Foto bagian pakaian yang ingin
-                    dikembalikan warnanya.
-                </p>
-
-            </div>
-
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    02
-                </div>
-
-                <h3>
-                    Kirim WhatsApp
-                </h3>
-
-                <p>
-                    Sertakan foto dan warna yang
-                    diinginkan.
-                </p>
-
-            </div>
-
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    03
-                </div>
-
-                <h3>
-                    Pengecekan
-                </h3>
-
-                <p>
-                    Kondisi dan kelayakan pakaian
-                    kami cek terlebih dahulu.
-                </p>
-
-            </div>
-
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    04
-                </div>
-
-                <h3>
-                    Estimasi
-                </h3>
-
-                <p>
-                    Estimasi proses dan biaya diberikan
-                    setelah pengecekan.
-                </p>
-
-            </div>
-
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    05
-                </div>
-
-                <h3>
-                    Kirim pakaian
-                </h3>
-
-                <p>
-                    Setelah proses disepakati,
-                    pakaian dapat dikirim untuk dikerjakan.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- FAQ -->
-
-<section class="section" id="faq">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            FAQ
-        </span>
-
-        <h2 class="section-title">
-            Pertanyaan yang
-            sering ditanyakan.
-        </h2>
-
-
-
-        <div class="faq">
-
-            <details>
-
-                <summary>
-                    Apakah semua pakaian bisa dicelup?
-                </summary>
-
-                <div class="faq-answer">
-                    Tidak semua. Kelayakan pakaian perlu
-                    dilihat berdasarkan material, kondisi
-                    dan warna awal. Kirim foto terlebih dahulu
-                    untuk pengecekan.
-                </div>
-
-            </details>
-
-
-
-            <details>
-
-                <summary>
-                    Bisa celup pakaian hitam yang sudah pudar?
-                </summary>
-
-                <div class="faq-answer">
-                    Bisa dicek terlebih dahulu. Kirim foto
-                    pakaian dan jelaskan kondisi warnanya.
-                </div>
-
-            </details>
-
-
-
-            <details>
-
-                <summary>
-                    Berapa lama proses pengerjaannya?
-                </summary>
-
-                <div class="faq-answer">
-                    Normalnya sekitar 1–2 hari setelah
-                    pakaian diterima, tergantung kondisi
-                    dan antrean pengerjaan.
-                </div>
-
-            </details>
-
-
-
-            <details>
-
-                <summary>
-                    Bagaimana cara mengirim pakaian?
-                </summary>
-
-                <div class="faq-answer">
-                    Setelah hasil pengecekan dan estimasi
-                    disepakati, pakaian dapat dikirim melalui
-                    ekspedisi atau Gojek.
-                </div>
-
-            </details>
-
-
-
-            <details>
-
-                <summary>
-                    Bisa datang langsung?
-                </summary>
-
-                <div class="faq-answer">
-                    Untuk penerimaan langsung, silakan
-                    hubungi WhatsApp terlebih dahulu agar
-                    waktu penerimaan dapat disesuaikan.
-                </div>
-
-            </details>
-
-
-
-            <details>
-
-                <summary>
-                    Berapa harga pengerjaannya?
-                </summary>
-
-                <div class="faq-answer">
-                    Harga bergantung pada jenis pakaian,
-                    kondisi dan kebutuhan proses.
-                    Estimasi diberikan setelah pengecekan.
-                </div>
-
-            </details>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- FINAL CTA -->
 
 <section class="final-cta">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            Inkdyeclothes id
-        </span>
-
-        <h2 class="section-title">
-            Masih ingin
-            mempertahankan
-            pakaian itu?
-        </h2>
-
-        <p>
-            Kirim foto pakaian dan warna yang kamu inginkan.
-            Kami cek terlebih dahulu sebelum menentukan prosesnya.
-        </p>
-
-        <a
-            href="https://wa.me/6282123087202"
-            class="btn btn-light"
-        >
-            Chat WhatsApp
-        </a>
-
-    </div>
-
+ <div class="wrap">
+  <div class="kicker">Inkdyeclothes id · Bandung, Indonesia</div>
+  <h2>Warna pakaian mulai memudar?</h2>
+  <p>Kirim foto pakaian dan warna yang kamu inginkan. Kami cek terlebih dahulu sebelum menentukan proses dan estimasi biaya.</p>
+  <a class="btn btn-light" href="https://wa.me/6282123087202">Konsultasikan pakaian ↗</a>
+ </div>
 </section>
-
 </main>
 
-
-
-<!-- FOOTER -->
-
-<footer>
-
-    <div class="container footer-inner">
-
-        <div class="footer-brand">
-            inkdyeclothes id
-        </div>
-
-        <div class="footer-info">
-
-            <span>
-                Dyeing & Restorasi Warna
-            </span>
-
-            <span>
-                Bandung · Indonesia
-            </span>
-
-            <a href="https://instagram.com/">
-                Instagram
-            </a>
-
-        </div>
-
-    </div>
-
+<footer class="footer">
+ <div class="wrap footer-inner">
+  <div>
+   <div class="brand">inkdyeclothes id<span>Dyeing specialist</span></div>
+  </div>
+  <div>Bandung · Indonesia</div>
+  <div>© 2026 Inkdyeclothes id</div>
+ </div>
 </footer>
 
+</div>
 </body>
 </html>
